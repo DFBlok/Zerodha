@@ -96,3 +96,39 @@
             margin: 0 auto;
             overflow: hidden;
         }*/
+
+		/*****3rd part*****/
+		.row{
+			box-sizing: border-box;
+			flex-flow: row wrap ;
+		}
+
+		.between {
+			justify-content: center;
+		}
+		.v-align{
+			align-items: center;
+			display: flex;
+		}
+		.text-center{
+			text-align: center;
+		}
+		.five{
+			flex-basis: 39.33%;
+			width: 39.33%
+
+		}
+		.columns{
+			box-sizing: border-box;
+			flex:0 1 auto ;
+		}
+		.row{
+			box-sizing: border-box;
+			display: flex;
+			flex:0 1 auto;
+			flex-flow: row wrap;
+		}
+		.six{
+			flex-basis: 48%;
+			width: 48%;
+		}
